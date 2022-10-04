@@ -1,8 +1,8 @@
 # MixLands Discord BOT
 
-In order to install the bot, first of all you need to insert your token and guild ID into the config.yml file.
+In order to install the bot, first of all you need to insert your token and guild ID into the **config.yml** file.
 
-After setting up the token and guild ID, it's worth going to the application.yml file and inserting your password to create a node.
+After setting up the token and guild ID, it's worth going to the **application.yml** file and inserting your password to create a node.
 
 Install JDK.
 ```sudo apt install default-jre```
@@ -18,8 +18,8 @@ Now for stable work, you need to install the old version of discord.py.
 ```sudo apt uninstall discord.py```
 ```sudo apt install discord.py==1.7.3```
 
-Go to the bot.py file, replace all the IDs of roles, channels and categories there for yourself.
-In the music system, set the password that was specified in the application.yml file.
+Go to the **bot.py** file, replace all the IDs of roles, channels and categories there for yourself.
+In the music system, set the password that was specified in the **application.yml** file.
 Customize the bot for yourself and run it on the second screen of your Linux server.
 ```screen -S bot```
 ```python3 bot.py```
