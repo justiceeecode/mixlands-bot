@@ -13,8 +13,8 @@ Once you have set the password for creating the node and the JDK, create a scree
 ### ```java -jar Lavalink.jar```
 
 Now for stable work, you need to install the old version of discord.py.
-### ```sudo apt uninstall discord.py```
-### ```sudo apt install discord.py==1.7.3```
+### ```pip uninstall discord.py```
+### ```pip install discord.py==1.7.3```
 Since the discord-components library is no longer updated, it must be installed manually, so move the discord-components folder from the repository to **/usr/lib/python3.10/**
 
 Go to the **bot.py** file, replace all the IDs of roles, channels and categories there for yourself.
